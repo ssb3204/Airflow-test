@@ -52,8 +52,10 @@
 # 특정 날짜로 DAG 테스트 실행
 airflow dags test country_info_to_redshift 2025-05-26
 
-![스크린샷 2025-05-26 175445](https://github.com/user-attachments/assets/d69240fc-b96f-4999-a910-73af98a0b664)
-
+## Colab 결과 확인
+%%sql
+select * from country_info
+limit 10;
 
 
 
